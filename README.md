@@ -7,7 +7,7 @@ Installation
 ------------
 
 ``` sh
-meteor add gwendall:ground-user
+meteor add anthonyastige:ground-user
 ```
 
 What it is for

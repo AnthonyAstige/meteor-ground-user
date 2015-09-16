@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'gwendall:ground-user',
+  name: 'anthonyastige:ground-user',
   summary: 'Get logged user\'s data available on startup and offline.',
   version: '0.1.2',
-  git: 'https://github.com/gwendall/meteor-ground-user.git',
+  git: 'https://github.com/anthonyastige/meteor-ground-user.git',
 });
 
 Package.on_use(function (api, where) {
