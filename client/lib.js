@@ -52,6 +52,8 @@ Meteor.user = function() {
 	return Meteor.users.findOne(selector) || GroundUser.findOne(selector);
 };
 
+/*
 Accounts.onLogout(function() {
 	GroundUser.clear();
 });
+*/
