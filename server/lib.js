@@ -1,4 +1,17 @@
+'use strict';
+/* global Meteor */
+
 Meteor.publish(null, function() {
-  if (!this.userId) return;
-  return Meteor.users.find({ _id: this.userId }, { limit: 1 });
+	if (!this.userId) {
+		return;
+	}
+
+	return Meteor.users.find(
+		{
+			_id: this.userId
+		},
+		{
+			limit: 1
+		}
+	);
 });
